@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Практическая работа №3"
+        android:textSize="20sp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Задание 1 -->
+    <Button
+        android:id="@+id/btnTask1"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Задание 1 — Toast с фамилией"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Задание 2 -->
+    <Button
+        android:id="@+id/btnTask2"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Задание 2 — Изменить текст кнопки"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Задание 3, 4, 5 — три кнопки -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="Кнопка 1"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="Кнопка 2"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="Кнопка 3"
+            android:layout_margin="4dp" />
+    </LinearLayout>
+
+    <!-- Кнопки для Задания 5 -->
+    <Button
+        android:id="@+id/btnModeA"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Включить Режим А"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnModeB"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:text="Включить Режим Б"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
