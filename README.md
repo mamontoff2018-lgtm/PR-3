@@ -1,11 +1,19 @@
 <div align="center">
+
 # Отчет
+
 </div>
+
 <div align="center">
-## Практическая работа №3
+
+## Практическая работа №2
+
 </div>
+
 <div align="center">
-## Обработка событий клика
+
+## Основы XML-разметки. Менеджеры размещения LinearLayout и GridLayout
+
 </div>
 
 **Выполнил:**  
